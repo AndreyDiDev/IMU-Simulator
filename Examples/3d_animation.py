@@ -1,7 +1,14 @@
-import imusim
+
 import numpy
 
-simulator = imusim.Simulator("circle/circle.csv")
+# import sys
+# sys.path.append('C:/Users/Andrey/Documents/AHRSRepo/IMU-Simulator/imusim.py')
+
+
+import imusim
+
+
+simulator = imusim.Simulator("C:/Users/Andrey/Documents/AHRSRepo/IMU-Simulator/Examples/circle/circle.csv")
 
 # Minimum example
 imusim.plot_3d(simulator.position, animate=True, sample_rate=simulator.sample_rate)

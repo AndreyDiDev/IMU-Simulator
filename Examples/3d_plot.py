@@ -2,7 +2,7 @@ import imusim
 import numpy
 import matplotlib.pyplot as pyplot
 
-simulator = imusim.Simulator("circle/circle.csv")
+simulator = imusim.Simulator("C:/Users/Andrey/Documents/AHRSRepo/IMU-Simulator/Examples/circle/circle.csv")
 
 # Minimum example
 imusim.plot_3d(simulator.position)

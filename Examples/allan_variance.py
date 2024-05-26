@@ -5,7 +5,7 @@ import numpy
 
 # This script may take over a minute to run
 
-simulator = imusim.Simulator("stationary/stationary.csv", sample_rate=10)
+simulator = imusim.Simulator("C:/Users/Andrey/Documents/AHRSRepo/IMU-Simulator/Examples/stationary/stationary.csv", sample_rate=10)
 
 noise_density = numpy.array([0.1, 0.01, 0.001])  # noise density can be read from an Allan variance plot as the tau=1 value
 
